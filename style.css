@@ -116,7 +116,7 @@ section {
 }
 blockquote {
   margin-left: 0;
-  /*height: 500px;*/
+  height: 500px;
   width: 40%;
   box-sizing: border-box;
   background: rgb(50 50 50);
