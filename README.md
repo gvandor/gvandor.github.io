@@ -1,2 +1,2 @@
 # kerlorant.github.io
-# tesztelek azért módoítottam.
+# tesztelek azért módosítottam.
