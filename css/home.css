@@ -1,0 +1,69 @@
+/* Google fonts:  
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-family: 'Alata', sans-serif;
+    font-family: 'Alef', sans-serif;
+    font-family: 'Arima Madurai', cursive;
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'PT Mono', monospace;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Ropa Sans', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Play', sans-serif;
+    font-family: 'Roboto', sans-serif; 
+    */
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    /*align-items: center;*/
+    height: 30px;
+    background-color:#404040;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;  
+    
+}
+nav a{
+    padding-top: 0.4em;
+    text-decoration: none;
+    color: whitesmoke;
+    
+    
+}
+nav a:hover {
+    
+    background-color: #ccc;
+    color: black;
+}
+.dropdownContent {
+    display: none;
+    color: black ;
+    margin: 0;
+}
+.dropbtn {
+    color: whitesmoke;
+    
+}
+.dropbtn:hover .dropdownContent {
+    display: block;
+}
+.dropbtn:hover {
+    color: black;
+    background-color: #ccc;
+}
