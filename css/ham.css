@@ -26,10 +26,12 @@
     body {
         padding: 0;
         margin: 0;
-        background-color:#202020;
+        background-color:#1a1a1a;
         color: white;
         font-family: 'Ropa Sans', sans-serif;
         font-size: 18px;
+        line-height: 1.5;
+        color: #aaaaaa;
     }
     main {
         border: solid 1px #202020
@@ -63,13 +65,13 @@
         
         background-color: #333;
     }  
-    footer a {
+    a {
         text-decoration: none;
         color: olivedrab;
         margin-left: 10px;
     }
 
-    footer a:hover {
+    a:hover {
         color: aqua;
     }
     footer {
