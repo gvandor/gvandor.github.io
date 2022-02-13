@@ -51,12 +51,11 @@
         text-align: center;
         border-left: solid 3px #000;
         border-right: solid 3px #505050;
-        border-top: solid 3px #202020;;
+        border-top: solid 3px #505050;;
         border-bottom: solid 3px #505050;;
         margin: 0px;
     }
-    header div {
-        border: solid 1px white;
+    header {
         text-align: center;
     }
     main nav a:hover {

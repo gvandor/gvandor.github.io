@@ -6,7 +6,7 @@ body {
     font-family: 'Ropa Sans', sans-serif;
     font-size: 18px;
     line-height: 1.5;
-    /*color: #aaaaaa;*/
+   
 }
 main nav {
     display: flex;
@@ -42,5 +42,6 @@ a:hover {
 }
 h1 {
     text-align: center;
-    color: #aaaaaa;
+    color: #ccc;
+    
 }
