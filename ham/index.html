@@ -21,26 +21,72 @@
 <body>
     <header>
         <h1>Rádió Amatőr</h1>
-    </header>
-
-    <main>
         <nav>
             <a href="../index.html">Főoldal</a>
-             <a href="../informatika/index.html">Informatika</a>
-             <a href="../blog/index.html">Blog</a>
+            <a href="../informatika/index.html">Informatika</a>
+            <a href="../blog/index.html">Blog</a>
             <a href=""></a>
             <a href=""></a>
             <a href=""></a>
         </nav>
+    </header>
+
+    <main>
+
 
         <p>
+            <script src="https://lcwo.net/js/jscwlib.js"></script>
+        <div id="player"></div>
+        <script>
+            var m = new jscw();
+            m.setWpm(20);
+            m.setEff(16);
+            m.setFreq(600);
+            m.setText("KEZDETBEN VOLT AZ IGE,= AZ IGE ISTENNEL VOLT,= O VOLT KEZDETBEN ISTENNEL=.  2. MINDEN ALTALA LETT, ES NALA NELKUL SEMMI SEM LETT, AMI LETT.=  3. BENNE ELET VOLT, ES AZ ELET VOLT AZ EMBEREK VILAGOSSAGA.=  4. A VILAGOSSAG A SOTETBEN VILAGIT, DE A SOTETSEG AZT FOL NEM FOGTA.=  5. VOLT EGY EMBER, AKIT ISTEN KULDOTT, JANOS VOLT A NEVE.=  6. TANUSKODNI JOTT, HOGY TANUSKODJEK A VILAGOSSAGROL, S MINDENKI HIGGYEN ALTALA.=  7. NEM O VOLT A VILAGOSSAG,CSAK TANUSAGOT KELLETT TENNIE A VILAGOSSAGROL.=  8. AZ IGAZI VILAGOSSAG, AKI MINDEN EMBERT MEGVILAGOSIT, A VILAGBA JOTT.=  9. A VILAGBAN VOLT, A VILAG OALTALA LETT, DE A VILAG NEM ISMERTE FEL OT.=");
+            m.renderPlayer('player', m);
+        </script>
 
         </p>
     </main>
 
     <footer>
-        <p>YL Raisa blogja:</p>
-        <a href="https://raisa.blog/" target="_blank">Ide kattintva elérhető</a>
+        <div class="link">
+            <p>Magyar Rádióamatőr Szövetség:</p>
+            <a href="https://mrasz.hu/" target="_blank">Itt</a>
+        </div>
+        <div class="link">
+            <p>Budapesti Fővárosi Rádióamatőr Klub:</p>
+            <a href="https://www.ha5kdr.hu/" target="_blank">Itt</a>
+        </div>
+        <div class="link">
+            <p>YL Raisa blogja:</p>
+            <a href="https://raisa.blog/" target="_blank">Itt</a>
+        </div>
+
+        <div class="link">
+            <p>QRZ:</p>
+            <a href="https://www.qrz.com/" target="_blank">Itt</a>
+        </div>
+        <div class="link">
+            <p>Hívójelkönyv:</p>
+            <a href="https://mrasz.hu/hivojelkonyv" target="_blank">Itt</a>
+        </div>
+        <div class="link">
+            <p>Fórum:</p>
+            <a href="https://hamator.hu/smf/" target="_blank">Itt</a>
+        </div>
+        <div class="link">
+            <p>:</p>
+            <a href="" target="_blank">Itt</a>
+        </div>
+        <div class="link">
+            <p>:</p>
+            <a href="" target="_blank">Itt</a>
+        </div>
+        <div class="link">
+            <p>:</p>
+            <a href="" target="_blank">Itt</a>
+        </div>
         <p></p>
     </footer>
 
