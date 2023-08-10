@@ -1,2 +1,2 @@
 # site
-My first webpage developing.
+Learning for site build.
