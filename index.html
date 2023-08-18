@@ -62,23 +62,47 @@
 
         <blockquote>
             <q>
-                Edward  Edward király angol király <br> léptet fakó
+                Edward Edward király angol király <br> léptet fakó
                 lován <br> körötte csend amerre ment <br> s néma tartomány.
             </q>
         </blockquote>
         <p> <s>Edwar király angol király</s> H<sub>2</sub>O 5m<sup>3</sup>
         <p title="Central Intelligence Agency"><i>CIA</i></p>
         </p>
-        <label for="root">Disk usage root:</label>
-        <meter id="root" value="0.2" min="" max="">20 %</meter>
-        <br>
+        <p>
+            <label for="root">Disk usage root:</label>
+            <meter id="root" value="0.2" min="" max="">20 %</meter>
+            <br>
 
-        <label for="home">Disk usage home:</label>
-        <meter id="home" value="1" min="0" max="10" low="3" high="4"> %</meter>
-        <br>
+            <label for="home">Disk usage home:</label>
+            <meter id="home" value="1" min="0" max="10" low="3" high="4"> %</meter>
+            <br>
 
-        <label for="download">Downloading progress:</label>
-        <progress id="download" value="" max="10">bakfitty</progress>
+            <label for="download">Downloading progress:</label>
+            <progress id="download" value="" max="10">bakfitty</progress>
+        </p>
+        <button onclick="showContent()">
+            Show hidden content
+        </button>
+        <template>
+            <p>
+                tádám, megjelent a rejtett tartalom, <br> milyen ügyes vagyok!
+            </p>
+        </template>
+        <p>This is some <u class="spelling-error">mispeled</u> text.</p>
+        <form action="" id="barika"><br>
+            <label for="name">Név</label>
+            <input type="text" id="name" name="name" placeholder="Gipsz Jakab"> <br> <br>
+            <label for="pwd">Jelszó</label>
+            <input type="password" id="pwd" name="pwd" placeholder="kisbetű, nagybetű, szám"> <br> <br>
+            <label for="mail">Email cím</label>
+            <input type="email" id="mail" name="mail" placeholder="faszom@gmail.com"> <br> <br>
+            <button type="button" autofocus onclick="alert('Hello world!')">Elküld</button>
+            
+
+        </form>
+        <button type="reset" form="barika">Töröl</button>
+
 
 
 

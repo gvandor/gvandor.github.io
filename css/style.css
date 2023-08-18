@@ -12,13 +12,19 @@ body {
     /*ez a bűvös sor, ettől az oldal
   ha kicsinyíted, nem csak a tartalom csökken, hanem
   az oldal is kisebb lesz, ameddig a tartalom van */
-
-
 }
+
+.spelling-error {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+}
+
 pre {
     margin: 0%;
     padding: 0%;
 }
+
 nav {
     height: fit-content;
     /*ha nagyítok, a nav kilóg a body-ból, ez érdekes.*/
