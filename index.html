@@ -38,7 +38,7 @@
         href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Merriweather&family=Open+Sans+Condensed:wght@300&family=Oswald&family=Playfair+Display&family=Roboto:wght@400;500&family=Alata&family=Alef:wght@400;700&family=Arima+Madurai&family=Balsamiq+Sans&family=Gloria+Hallelujah&family=Lobster+Two&family=PT+Mono&family=Patrick+Hand&family=Ropa+Sans&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Princess+Sofia&family=Sofia&family=Sacramento&family=Special+Elite&display=swap"
         rel="stylesheet">
 
-    <title>Leonardo site</title>
+    <title>gvandor site</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -95,13 +95,18 @@
             <input type="text" id="name" name="name" placeholder="Gipsz Jakab"> <br> <br>
             <label for="pwd">Jelszó</label>
             <input type="password" id="pwd" name="pwd" placeholder="kisbetű, nagybetű, szám"> <br> <br>
+
             <label for="mail">Email cím</label>
             <input type="email" id="mail" name="mail" placeholder="faszom@gmail.com"> <br> <br>
-            <button type="button" autofocus onclick="alert('Hello world!')">Elküld</button>
-            
+            <button type="button" autofocus onclick="alert('Hello world!')">Elküld</button><br><br>
+            <button type="reset" form="barika">Töröl</button><br><br>
 
+            <label for="myFile">Válassz ki egy fájlt:</label>
+            <input type="file" id="myFile" name="myFile" multiple><br><br>
+            <button type="button" onclick="alert('most nem küldöm el')">
+                elküld</button>
         </form>
-        <button type="reset" form="barika">Töröl</button>
+
 
 
 
